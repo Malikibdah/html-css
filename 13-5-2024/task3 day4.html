@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .s{
+            
+            font-size: large;
+            padding-left: 20px;
+            
+        }
+        .m1{
+            border: 1px dashed;
+            width:max-content;
+            height: 150px;
+            margin-top: 20px;
+            margin-left: 20px;
+            position: relative;
+        }
+        .a1{
+            width: 200px;
+            height: inherit;
+            background-color: red;
+            display: inline-block;
+           
+            
+        }
+        .l11{
+            width: 200px;
+            height: inherit;
+            background-color:green;
+            display: inline-block;
+            position: static;
+           
+        }
+        .l12{
+            width: 200px;
+            height: inherit;
+            background-color:green;
+            display: inline-block;
+            position: relative;
+            top: 30px;
+            left: 30px;
+           
+        }
+        .l13{
+            width: 200px;
+            height: inherit;
+            background-color:green;
+            display: inline-block; 
+            position: absolute;
+            top: 15px;
+            left: 15px;
+        }
+        
+    </style>
+</head>
+<body>
+<div class="start">
+    <p class="s">postion: static</p>
+<div class="m1">
+    
+    <div class="a1">
+        <p>One</p>
+    </div>
+    <div class="l11">
+        <p>Tow</p>
+    </div>
+    <div class="a1">
+        <p>Three</p>
+    </div>
+    <div class="a1">
+         <p>Four</p>
+    </div>
+</div> <br><br>
+<p class="s">postion: relative</p>
+<div class="m1">
+    
+    <div class="a1">
+        <p>One</p>
+    </div>
+    <div class="l12">
+        <p>Tow</p>
+    </div>
+    <div class="a1">
+        <p>Three</p>
+    </div>
+    <div class="a1">
+        <p>Four</p>
+    </div>
+</div><br><br>
+<p class="s">postion: absolute</p>
+<div class="m1">
+    
+    <div class="a1">
+        <p>One</p>
+    </div>
+    <div class="a1">
+        <p>Tow</p>
+    </div>
+    <div class="a1">
+        <p>Three</p>
+    </div>
+    <div class="l13">
+        <p>Four</p>
+    </div>
+</div>
+</div>
+
+
+</body>
+</html>
